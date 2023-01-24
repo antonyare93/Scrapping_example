@@ -11,7 +11,7 @@ tipos = ['baloto', 'revancha']
 
 datos = ['tipo', 'sorteo', 'num1', 'num2', 'num3', 'num4', 'num5', 'power', 'fecha']
 resultados = []
-resultados.append(datos)
+
 with webdriver.Chrome(executable_path="./chromedriver/chromedriver.exe") as driver:
     for sorteo in range(2081,2261):
         for tipo in tipos:
@@ -32,8 +32,7 @@ with webdriver.Chrome(executable_path="./chromedriver/chromedriver.exe") as driv
 
 # %%
 df_resultados = pd.DataFrame(np.array(resultados))
-df_resultados.columns = df_resultados.iloc[0]
-df_resultados = df_resultados[(df_resultados.index != 0)].copy()
+df_resultados.columns = np.array(datos)
 # %%
 df_resultados.to_csv('./Dataset_baloto/resultados_baloto.csv', sep='|', index=False)
 
