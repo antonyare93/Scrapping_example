@@ -1,4 +1,4 @@
-# Let's learn Scrapping
+# Let's learn Web Scrapping
 
 This repository will explaing how to use scrapping technique to extract data from a web page.
 
