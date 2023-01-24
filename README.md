@@ -2,7 +2,7 @@
 
 This repository will explaing how to use scrapping technique to extract data from a web page.
 
-## Language used
+## Languages used
 Python <code><img height="20" alt="Python" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>: This will be the main language. We'll use the selenium module to open a chrome-controller instance.</br>
 HTML <code><img height="20" alt="Python" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>: Basic knowledge to scrapping throught the page.</br>
 CSS <code><img height="20" alt="Python" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>: Basic knowledge to identify classes
